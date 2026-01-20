@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IPngB42iQMA=",
+  "dgSpecHash": "k7ci70Yu6Ww=",
   "success": true,
   "projectFilePath": "C:\\Users\\Pamudu\\GitHub\\Shopping-Cart-Backend\\Shopping-Cart.Core\\Shopping-Cart.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Pamudu\\.nuget\\packages\\sonaranalyzer.csharp\\10.5.0.109200\\sonaranalyzer.csharp.10.5.0.109200.nupkg.sha512"
+  ],
   "logs": []
 }
