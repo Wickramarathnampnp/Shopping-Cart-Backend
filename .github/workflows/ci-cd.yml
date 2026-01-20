@@ -23,15 +23,15 @@ jobs:
 
     # 3️⃣ Restore dependencies
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore Shopping-Cart.Presentation/Shopping-Cart.Presentation.csproj
 
     # 4️⃣ Build
     - name: Build
-      run: dotnet build --no-restore -c Release
+      run: dotnet build Shopping-Cart.Presentation/Shopping-Cart.Presentation.csproj -c Release --no-restore
 
     # 5️⃣ Run tests
     - name: Run tests
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test Shopping-Cart.Test/Shopping-Cart.Test.csproj --no-build
 
     # 6️⃣ Login to Docker Hub
     - name: Docker login
